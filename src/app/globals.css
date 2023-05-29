@@ -27,3 +27,70 @@
     line-height: 21px;
 
 }
+
+.horizontal {
+    content: "";
+    position: absolute;
+    width: 128px;
+    height: 8px;
+    left: 0px;
+    top: 0px;
+    background: #EF419B;
+    border-radius: 30px;
+}
+
+.card {
+    margin-top: 28px;
+}
+
+.banner1 {
+    height: 419px;
+    width: 50%;
+    margin-right: 20px;
+    background-image: url("/Banner1.png");
+    background-repeat: no-repeat;
+    text-shadow: 3px 3px 0px #000000;
+    /* border: 1px solid #000000; */
+}
+
+.banner2 {
+    height: 419px;
+    width: 100%;
+    background-image: url("/Banner2.png");
+    text-shadow: 3px 3px 0px #000000;
+    /* border: 1px solid #000000; */
+
+}
+
+.footer {
+    margin-top: 130px;
+    height: 450px;
+    left: 0%;
+    right: 0%;
+    bottom: 0px;
+    background: #F5F5F5;
+}
+
+.under-line::after {
+    display: block;
+    content: "";
+    width: 30%;
+    height: 5px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    background: gray;
+    transform: translate(200%, -500%);
+}
+
+.under-line::before {
+    display: block;
+    content: "";
+    width: 30%;
+    height: 5px;
+    position: relative;
+    top: -3px;
+    left: 0px;
+    background: gray;
+    transform: translate(33%, 500%);
+}

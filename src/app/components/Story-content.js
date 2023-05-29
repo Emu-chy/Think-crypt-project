@@ -4,24 +4,6 @@ import React from "react";
 const StoryContent = () => {
     return (
         <>
-            {/* <div className="flex mt-10">
-                <div className="mx-24 w-96">
-                    <img src="/Frame3.png" alt="frame" className="min-w-full" />
-                </div>
-                <div className="mx-24">
-                    <p className="w-50">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-                        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum,
-                        illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                        explicabo.{" "}
-                    </p>
-                </div>
-            </div> */}
-
             <main class="mt-32 flex flex-col xl:flex-row">
                 <div class="mx-24 h-full">
                     <img
@@ -63,12 +45,13 @@ const StoryContent = () => {
                             nulla pariatur?
                         </p>
 
-                        <button class=" mt-12 inline-block bg-black px-4 py-2 text-white">
+                        <button class=" mt-8 inline-block bg-black px-4 py-2 text-white">
                             Learn More
                         </button>
                     </div>
                 </div>
             </main>
+            <h3 className="text-4xl text-center font-bold under-line text-gray-600">FEATURED</h3>
         </>
     );
 };

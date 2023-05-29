@@ -1,0 +1,25 @@
+ {
+    "Data":[
+    {
+      "id": 1,
+      "image": "/Card-image1.png",
+      "title": "STAR WARS SPECIAL",
+      "details":"May the Force be with you",
+      "quantity":"9 o z"
+    },
+    {
+      "id": 2,
+      "image": "/Card-image2.png",
+      "title": "STAR WARS SPECIAL",
+      "details":"May the Force be with you",
+      "quantity":"9 o z"
+    },
+    {
+      "id": 3,   
+      "image": "/Card-image3.png",
+      "title": "STAR WARS SPECIAL",
+      "details":"May the Force be with you",
+      "quantity":"9 o z"
+    }
+  ]
+}
