@@ -13,12 +13,12 @@ const Giftsection = () => {
             </div>
 
             <div class="mt-4 mx-24 flex flex-col xl:flex-row mb-4">
-                <h2 className="banner1 text-center font-extrabold text-white text-2xl py-32">
+                <h2 className="banner1 text-center font-extrabold text-white text-2xl py-36">
                     Women’s Day Special <br /> Gift Box
                 </h2>
 
                 <div class="xl:w-1/2 flex  justify-center">
-                    <h2 className="banner2 text-center font-extrabold text-white text-2xl py-32">
+                    <h2 className="banner2 text-center font-extrabold text-white text-2xl py-36">
                         Valentine’s Day Special <br /> Gift Box
                     </h2>
                 </div>

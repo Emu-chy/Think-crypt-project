@@ -1,5 +1,5 @@
 import Image from "next/image";
-import React from "react";
+
 import { AiFillHeart } from "react-icons/ai";
 import { GiShare } from "react-icons/gi";
 import { MdNavigateNext } from "react-icons/md";
@@ -41,7 +41,7 @@ const Featured = ({ title, description }) => {
                 </div>;
             })} */}
 
-            <div className="mx-24 flex">
+            <div className="mx-24 grid gap-x-2 grid-cols-4">
                 <div class="mx-5 max-w-sm border border-gray-200 rounded-lg card ">
                     <div>
                         <Image
