@@ -1,15 +1,16 @@
-/* eslint-disable @next/next/no-img-element */
-import React from "react";
+import Image from "next/image";
 
 const StoryContent = () => {
     return (
         <>
             <main class="mt-32 flex flex-col xl:flex-row">
                 <div class="mx-24 h-full">
-                    <img
+                    <Image
                         class="object-cover w-full frame-img"
                         src="/Frame3.png"
                         alt="Robot Group"
+                        width={200}
+                        height={200}
                     />
                 </div>
 

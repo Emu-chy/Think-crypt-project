@@ -57,6 +57,7 @@
     height: 419px;
     width: 100%;
     background-image: url("/Banner2.png");
+    background-repeat: no-repeat;
     text-shadow: 3px 3px 0px #000000;
     /* border: 1px solid #000000; */
 
@@ -93,4 +94,12 @@
     left: 0px;
     background: gray;
     transform: translate(33%, 500%);
+}
+
+.product-image {
+    height: 500px;
+}
+
+.product-h1 {
+    margin-bottom: -65px;
 }

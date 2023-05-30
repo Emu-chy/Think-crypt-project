@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Featured from "./components/Featured";
 import Giftsection from "./components/Giftsection";
 import Herosection from "./components/Herosection";
@@ -8,17 +9,41 @@ const page = () => {
         <>
             <Herosection />
             <StoryContent />
-            <Featured />
+            <Link href="Product">
+                <Featured
+                    title={"Handicrafted Scented Candles"}
+                    description={"With over hundreds of fragrances to choose from"}
+                />
+            </Link>
+
             <div className="mt-24">
-                <Featured />
+                <Link href="/Product">
+                    <Featured
+                        title={"Handicrafted Scented Candles"}
+                        description={"With over hundreds of fragrances to choose from"}
+                    />
+                </Link>
             </div>
             <div className="mt-24">
-                <Featured />
+                <Link href="/Product">
+                    <Featured
+                        title={"Handicrafted Scented Candles"}
+                        description={"With over hundreds of fragrances to choose from"}
+                    />
+                </Link>
             </div>
             <div className="mt-24">
-                <Featured />
+                <Link href="/Product">
+                    <Featured
+                        title={"Handicrafted Scented Candles"}
+                        description={"With over hundreds of fragrances to choose from"}
+                    />
+                </Link>
             </div>
-            <Giftsection />
+            <Giftsection
+                title={"Handicrafted Scented Candles"}
+                description={"With over hundreds of fragrances to choose from"}
+            />
         </>
     );
 };

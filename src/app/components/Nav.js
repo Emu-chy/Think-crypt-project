@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Nav = () => {
     return (
@@ -10,7 +9,13 @@ const Nav = () => {
                     <div className="mx-24 flex items-center space-x-5">
                         <div className="flex-shrink-0">
                             <Link href="/">
-                                <img className="h-14 w-14 mt-3 " src="/logo.png" alt="Logo" />
+                                <Image
+                                    className="h-14 w-14 mt-3 "
+                                    src="/logo.png"
+                                    alt="Logo"
+                                    height={200}
+                                    width={200}
+                                />
                             </Link>
                         </div>
                         <div class=" mt-3 relative flex items-center w-full h-12 rounded-lg focus-within:shadow-lg overflow-hidden">
