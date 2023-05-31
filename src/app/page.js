@@ -1,4 +1,3 @@
-import Link from "next/link";
 import Featured from "./components/Featured";
 import Giftsection from "./components/Giftsection";
 import Herosection from "./components/Herosection";
@@ -9,36 +8,29 @@ const page = () => {
         <>
             <Herosection />
             <StoryContent />
-            <Link href="Product">
+
+            <Featured
+                title={"Handicrafted Scented Candles"}
+                description={"With over hundreds of fragrances to choose from"}
+            />
+
+            <div className="mt-24">
                 <Featured
                     title={"Handicrafted Scented Candles"}
                     description={"With over hundreds of fragrances to choose from"}
                 />
-            </Link>
-
-            <div className="mt-24">
-                <Link href="/Product">
-                    <Featured
-                        title={"Handicrafted Scented Candles"}
-                        description={"With over hundreds of fragrances to choose from"}
-                    />
-                </Link>
             </div>
             <div className="mt-24">
-                <Link href="/Product">
-                    <Featured
-                        title={"Handicrafted Scented Candles"}
-                        description={"With over hundreds of fragrances to choose from"}
-                    />
-                </Link>
+                <Featured
+                    title={"Handicrafted Scented Candles"}
+                    description={"With over hundreds of fragrances to choose from"}
+                />
             </div>
             <div className="mt-24">
-                <Link href="/Product">
-                    <Featured
-                        title={"Handicrafted Scented Candles"}
-                        description={"With over hundreds of fragrances to choose from"}
-                    />
-                </Link>
+                <Featured
+                    title={"Handicrafted Scented Candles"}
+                    description={"With over hundreds of fragrances to choose from"}
+                />
             </div>
             <Giftsection
                 title={"Handicrafted Scented Candles"}

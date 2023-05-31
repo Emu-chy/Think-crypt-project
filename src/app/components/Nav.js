@@ -47,26 +47,26 @@ const Nav = () => {
                     <div className="hidden md:block mt-3 mx-24">
                         <div className="ml-10 flex items-baseline space-x-4">
                             <Link
-                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium"
                                 href="/"
                             >
                                 Home
                             </Link>
                             <Link
-                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium"
                                 href="/categories"
                             >
                                 Categories
                             </Link>
                             <Link
-                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
-                                href="/login"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                                href="/Login"
                             >
                                 Login
                             </Link>
                             <Link
-                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-xl font-medium"
-                                href="/about"
+                                className="text-gray-300 hover:text-white px-3 py-2 rounded-md text-md font-medium"
+                                href="/About"
                             >
                                 About US
                             </Link>
