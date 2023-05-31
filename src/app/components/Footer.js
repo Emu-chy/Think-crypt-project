@@ -2,6 +2,7 @@ import React from "react";
 import { MdEmail, MdCall } from "react-icons/md";
 import { BsFacebook } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
     return (
@@ -70,7 +71,9 @@ const Footer = () => {
                 <div className="bg-black h-14 mt-12">
                     <p className="text-center text-md text-white mt-4 py-4">
                         Copyright © 2021, Vincent’s Sphere | All rights reserved | Powered by &nbsp;
-                        <span className="text-fuchsia-600">thinkcrypt.io</span>
+                        <Link href="https://thinkcrypt.io">
+                            <span className="text-fuchsia-600">thinkcrypt.io</span>
+                        </Link>
                     </p>
                 </div>
             </footer>
